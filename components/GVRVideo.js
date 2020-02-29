@@ -1,11 +1,12 @@
 /*
- * @Author: altafan 
- * @Date: 2017-06-22 15:25:03 
+ * @Author: altafan
+ * @Date: 2017-06-22 15:25:03
  * @Last Modified by: altafan
  * @Last Modified time: 2017-06-23 16:36:11
  */
 import React, { Component, PropTypes } from 'react'
 import { requireNativeComponent, View } from 'react-native'
+import PropTypes from "prop-types";
 
 
 class VideoView extends Component {

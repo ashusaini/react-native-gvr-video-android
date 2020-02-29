@@ -38,6 +38,12 @@ public class VideoManager extends SimpleViewManager<VrVideoView> {
     }
 
     @Override
+    public void updateExtraData(VrVideoView root,Object extraData) {
+
+    }
+
+
+    @Override
     protected VrVideoView createViewInstance(ThemedReactContext context) {
         view = new VrVideoView(context.getCurrentActivity());
 
